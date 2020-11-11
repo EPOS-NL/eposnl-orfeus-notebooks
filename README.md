@@ -1,4 +1,7 @@
 # Quick start guide
+## Run using Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EPOS-NL/eposnl-orfeus-notebooks/HEAD?filepath=notebooks%2F)
+## Run on local machine
 1. Create the virtual environment:
     ```
     $ python3 -m venv env
