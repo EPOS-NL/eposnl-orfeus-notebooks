@@ -12,6 +12,7 @@
     ```
 1. Install the dependencies:
     ```
+    (env) $ pip install jupyter==1.0.0
     (env) $ pip install -r requirements.txt
     ```
 1. Run the server:
