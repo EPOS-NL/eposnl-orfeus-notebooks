@@ -4,9 +4,9 @@ to downloading seismic waveforms and station metadata from the ORFEUS Data Cente
 
 1. `notebooks/webdc3` presents a typical use case of finding a seismic event in the area of the Groningen gas field, selecting stations from its surroundings, downloading the event waveforms and station metadata using [WebDC3](http://orfeus-eu.org/webdc3/) web application hosted at the [ORFEUS Data Center](https://www.orfeus-eu.org/data/odc)
 1. `notebooks/webservices-obspy` is a more advanced workflow example focused on the [ObsPy](https://github.com/obspy/obspy) Python library and usage of the web services provided by the [ORFEUS Data Center](https://www.orfeus-eu.org/data/odc):
-    1. [FDSNWS-Dataselect](http://orfeus-eu.org/fdsnws/dataselect/1/)
-    1. [FDSNWS-Station](http://orfeus-eu.org/fdsnws/station/1/)
-    1. [EIDAWS-WFCatalog](http://www.orfeus-eu.org/eidaws/wfcatalog/1/)
+    1. [FDSNWS-Dataselect](http://orfeus-eu.org/fdsnws/dataselect/1/) (raw waveforms)
+    1. [FDSNWS-Station](http://orfeus-eu.org/fdsnws/station/1/) (station metadata)
+    1. [EIDAWS-WFCatalog](http://www.orfeus-eu.org/eidaws/wfcatalog/1/) (waveform quality metrics)
 
 # Quick start guide
 
