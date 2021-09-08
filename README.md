@@ -49,6 +49,6 @@ to downloading seismic waveforms and station metadata from the ORFEUS Data Cente
 |Description|URL|
 |-|-|
 |EPOS-NL|[epos-nl.nl](https://epos-nl.nl)|
-|ORFEUS Data Center|[https://www.orfeus-eu.org/data/odc](https://www.orfeus-eu.org/data/odc)|
+|ORFEUS Data Center|[orfeus-eu.org/data/odc](https://www.orfeus-eu.org/data/odc)|
 |ObsPy|[github.com/obspy/obspy](github.com/obspy/obspy)|
 |Seismo-Live (more notebooks with usage examples)|[seismo-live.org](http://seismo-live.org)|
