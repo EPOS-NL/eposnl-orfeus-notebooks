@@ -1,4 +1,7 @@
-# Introduction
+# EPOS-NL ORFEUS Notebooks
+
+## Introduction
+
 This repository contains Jupyter notebooks presenting 2 very different approaches
 to downloading seismic waveforms and station metadata from the ORFEUS Data Center:
 
@@ -8,34 +11,44 @@ to downloading seismic waveforms and station metadata from the ORFEUS Data Cente
     1. [FDSNWS-Station](http://orfeus-eu.org/fdsnws/station/1/) (station metadata)
     1. [EIDAWS-WFCatalog](http://www.orfeus-eu.org/eidaws/wfcatalog/1/) (waveform quality metrics)
 
-# Quick start guide
+## Quick start guide
 
-## Run using Binder
+### Run using Binder
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EPOS-NL/eposnl-orfeus-notebooks/HEAD?filepath=notebooks%2F)
 
-## Run on local machine
+### Run on local machine
+
 1. Create the virtual environment:
-    ```
-    $ python3 -m venv env
-    ```
-1. Activate the virtual environment:
-    ```
-    $ source env/bin/activate
-    ```
-1. Install the dependencies:
-    ```
-    (env) $ pip install jupyter==1.0.0
-    (env) $ pip install -r requirements.txt
-    ```
-1. Run the server:
-    ```
-    (env) $ jupyter notebook notebooks/
+
+    ```bash
+    python3 -m venv env
     ```
 
-# References
+1. Activate the virtual environment:
+
+    ```bash
+    source env/bin/activate
+    ```
+
+1. Install the dependencies:
+
+    ```bash
+    pip install jupyter==1.0.0
+    pip install -r requirements.txt
+    ```
+
+1. Run the server:
+
+    ```bash
+    jupyter notebook notebooks/
+    ```
+
+## References
+
 |Description|URL|
 |-|-|
-|EPOS-NL|https://epos-nl.nl|
-|ORFEUS Data Center|https://www.orfeus-eu.org/data/odc|
-|ObsPy|https://github.com/obspy/obspy|
-|Seismo-Live (more notebooks with usage examples)|http://seismo-live.org|
+|EPOS-NL|[epos-nl.nl](https://epos-nl.nl)|
+|ORFEUS Data Center|[https://www.orfeus-eu.org/data/odc](https://www.orfeus-eu.org/data/odc)|
+|ObsPy|[github.com/obspy/obspy](github.com/obspy/obspy)|
+|Seismo-Live (more notebooks with usage examples)|[seismo-live.org](http://seismo-live.org)|
